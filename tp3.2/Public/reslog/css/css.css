@@ -1,0 +1,33 @@
+.basic-grey {margin-left:auto;margin-right:auto;max-width: 500px;background: #F7F7F7;padding: 25px 15px 25px 10px;font: 12px Georgia, "Times New Roman", Times, serif;color: #888;text-shadow: 1px 1px 1px #FFF;border:1px solid #E4E4E4;}
+.basic-grey h1 {font-size: 25px;padding: 0px 0px 10px 40px;display: block;border-bottom:1px solid #E4E4E4;margin: -10px -15px 30px -10px;;color: #888;}
+.basic-grey h1>span {display: block;font-size: 11px;}
+.basic-grey label {display: block;margin: 0px;}
+.basic-grey label>span {float: left;width: 20%;text-align: right;padding-right: 10px;margin-top: 10px;color: #888;}
+.basic-grey input[type="text"],input[type="email"],input[type="password"],input[type="tel"],.basic-grey select {border: 1px solid #DADADA;color: #888;height: 30px;margin-bottom: 16px;margin-right: 6px;margin-top: 2px;outline: 0 none;padding: 3px 3px 3px 5px;width: 70%;font-size: 12px;line-height:15px;box-shadow: inset 0px 1px 4px #ECECEC;-moz-box-shadow: inset 0px 1px 4px #ECECEC;-webkit-box-shadow: inset 0px 1px 4px #ECECEC;}
+.basic-grey textarea{padding: 5px 3px 3px 5px;border: 1px solid #DADADA;color: #888;}
+.basic-grey select {background: #FFF url('down-arrow.png') no-repeat right;background: #FFF url('down-arrow.png') no-repeat right;appearance: none;-webkit-appearance:none;-moz-appearance: none;text-indent: 0.01px;text-overflow: '';width: 70%;height: 35px;line-height: 25px;}
+.basic-grey .submit {background: #E27575;border: none;padding: 10px 25px 10px 25px;color: #FFF;box-shadow: 1px 1px 5px #B6B6B6;border-radius: 3px;text-shadow: 1px 1px 1px #9E3F3F;cursor: pointer;margin-left:220px;text-align:center;}
+.basic-grey .submit:hover {background: #CF7A7A}
+.date_selector, .date_selector *{width: auto;height: auto;border: none;background: none;margin: 0;padding: 0;text-align: left;text-decoration: none;}
+.date_selector{background:#fbfbfb;border: 1px solid #ccc;padding: 10px;margin:0;margin-top:-1px;position: absolute;z-index:100000;display:none;border-radius: 3px;box-shadow: 0 0 5px #aaa;box-shadow:0 2px 2px #ccc; width:220px;}
+.date_selector_ieframe{position: absolute;z-index: 99999;display: none;}
+.date_selector .nav{width: 17.5em;}
+.date_selector .nav p{clear: none;}
+.date_selector .month_nav, .date_selector .year_nav{margin: 0 0 3px 0;padding: 0;display: block;position: relative;text-align: center;}
+.date_selector .month_nav{float: left;width: 55%;}
+.date_selector .year_nav{float: right;width: 42%;margin-right: -8px;}
+.date_selector .month_name, .date_selector .year_name{font-weight: bold;line-height: 20px;}
+.date_selector .button{display: block;position: absolute;top: 0;width:18px;height:18px;line-height:16px;font-weight:bold;color:#5985c7;text-align: center;font-size:12px;overflow:hidden;border: 1px solid #ccc;border-radius:2px;}
+.date_selector .button:hover, .date_selector .button.hover{background:#5985c7;color: #fff;cursor: pointer;border-color:#3a930d;}
+.date_selector .prev{left: 0;}
+.date_selector .next{right: 0;}
+.date_selector table{border-spacing: 0;border-collapse: collapse;clear: both;margin: 0; width:220px;}
+.date_selector th, .date_selector td{width: 2.5em;height: 2em;padding: 0 !important;text-align: center !important;color: #666;font-weight: normal;}
+.date_selector th{font-size: 12px;}
+.date_selector td{border:1px solid #f1f1f1;line-height: 2em;text-align: center;white-space: nowrap;color:#5985c7;background: #fff;}
+.date_selector td.today{background: #eee;}
+.date_selector td.unselected_month{color: #ccc;}
+.date_selector td.selectable_day{cursor: pointer;}
+.date_selector td.selected{background:#2b579a;color: #fff;font-weight: bold;}
+.date_selector td.selectable_day:hover, .date_selector td.selectable_day.hover{background:#5985c7;color: #fff;}
+.blueButton{display: block;width: 250px;height: 20px;background-color: #00b3ee;color: #fff;text-decoration: none;text-align: center;font:normal normal normal 12px/30px 'Microsoft YaHei';cursor: pointer;border-radius: 4px;margin-left:22%}
